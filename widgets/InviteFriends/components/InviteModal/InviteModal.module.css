@@ -1,0 +1,32 @@
+.inviteModalBody__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inviteModalBody__header__title {
+  font-size: 20px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.inviteModalBody__description {
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.copyLinkBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.copyLinkBox > input {
+  padding: 10px;
+  border: 1px solid black;
+  flex: 1;
+  font-size: 15px;
+  margin-right: 10px;
+}

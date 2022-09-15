@@ -1,0 +1,75 @@
+.destPollOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 5px;
+  box-shadow: 0px 0px 4px #777;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-left: 4px;
+}
+
+.destPollOption__voteButton {
+  margin-right: 10px;
+}
+
+.destPollOption__left {
+  flex: 1;
+}
+
+.destPollOption__dateText {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.destPollOption__dateInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.destPollOption__dateInfoTag {
+  margin: 0px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #777;
+}
+
+.destPollOption__dateInfoTag::after {
+  content: '';
+  display: inline-block;
+  margin-left: 8px;
+  background-color: #777;
+  margin-right: 8px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+
+.destPollOption__dateInfoTag:last-child::after {
+  display: none;
+}
+
+.destPollOption__numVoteWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.destPollOption__numVoteText {
+  margin-top: 0px;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.destPollOption__numVoteLabel {
+  margin-top: 0px;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 0px;
+}

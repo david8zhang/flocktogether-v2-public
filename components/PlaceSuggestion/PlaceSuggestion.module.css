@@ -1,0 +1,13 @@
+.placeSuggestion {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.placeSuggestion:hover {
+  background-color: #dddd;
+}
+
+.placeSuggestion p {
+  margin: 0px 0px;
+  font-size: 20px;
+}

@@ -1,0 +1,21 @@
+.suggestionInput {
+  position: relative;
+  width: 100%;
+}
+
+.suggestionInput__suggestionList {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  border: 1px solid black;
+  max-height: 300px;
+  overflow-y: scroll;
+  z-index: 1;
+  background-color: white;
+}
+
+.suggestionInput__loadingText {
+  padding: 10px;
+  font-size: 18px;
+  margin: 0px;
+}

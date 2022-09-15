@@ -1,0 +1,5 @@
+.linkText {
+  text-decoration: underline;
+  color: cornflowerblue;
+  cursor: pointer;
+}

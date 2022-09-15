@@ -1,0 +1,17 @@
+.resultList {
+  height: 515px;
+  overflow-y: scroll;
+}
+
+.listPlaceholder {
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listPlaceholder__text {
+  color: #999;
+  font-style: italic;
+}

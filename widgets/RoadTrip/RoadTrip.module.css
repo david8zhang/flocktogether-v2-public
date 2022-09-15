@@ -1,0 +1,35 @@
+.roadTrip__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.roadTrip__header_mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectedDestWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.selectedDestWrapper__text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.selectedDestWrapper__name {
+  font-size: 24px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.selectedDestWrapper__address {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}

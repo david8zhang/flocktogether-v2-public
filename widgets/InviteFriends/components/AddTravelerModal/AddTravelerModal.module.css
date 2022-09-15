@@ -1,0 +1,4 @@
+.addTravelerModalContent {
+  display: flex;
+  flex-direction: column;
+}

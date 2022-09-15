@@ -1,0 +1,50 @@
+.destinationPoll {
+  display: flex;
+  flex-direction: row;
+}
+
+.destinationPoll_mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.destinationPoll__pollOptions {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin-right: 10px;
+}
+
+.destinationPoll__pollOptions_mobile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+
+.destinationPoll__search {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.destinationPoll__map {
+  flex: 1;
+  height: 600px;
+}
+
+.listPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.listPlaceholder__text {
+  color: #aaa;
+  font-style: italic;
+}

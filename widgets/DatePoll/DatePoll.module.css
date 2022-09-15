@@ -1,0 +1,55 @@
+.datePoll {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-shadow: 0px 0px 4px #ccc;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.datePoll__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.datePoll__header_mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.datePoll__body {
+  display: flex;
+  flex-direction: row;
+}
+
+.datePoll__body_mobile {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.datePoll__optionListWrapper {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.datePoll__optionListWrapper_mobile {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.datePoll__optionList {
+  overflow-y: scroll;
+  padding: 5px;
+  height: 535px;
+}
+
+.datePoll__calendar {
+  flex: 1;
+}
+
+.finishedButtonWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}

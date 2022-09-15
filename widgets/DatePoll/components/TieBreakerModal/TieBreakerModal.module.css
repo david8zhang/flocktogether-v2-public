@@ -1,0 +1,9 @@
+.tieBreakerModalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.tieBreakerModalContent__dateRangeOptions {
+  max-height: 450px;
+  overflow-y: scroll;
+}

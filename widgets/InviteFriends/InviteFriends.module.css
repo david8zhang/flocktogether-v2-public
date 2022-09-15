@@ -1,0 +1,36 @@
+.inviteFriends {
+  display: flex;
+  flex-direction: column;
+}
+
+.inviteFriends__titleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inviteFriends__titleWrapper_mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.inviteFriends__titleText {
+  flex: 1;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.inviteFriends__titleText_mobile {
+  margin-bottom: 0px;
+}
+
+.inviteFriends__titleLink {
+  text-decoration: underline;
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.inviteFriends__friendsList {
+  display: flex;
+  flex-direction: row;
+}

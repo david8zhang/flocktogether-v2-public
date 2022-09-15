@@ -1,0 +1,23 @@
+.widgetHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetHeader__title {
+  flex: 1;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.widgetHeader__title_mobile {
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.widgetHeader__description {
+  margin-top: 0px;
+  font-size: 16px;
+  color: #444;
+}

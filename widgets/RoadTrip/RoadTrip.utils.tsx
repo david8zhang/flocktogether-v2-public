@@ -1,3 +1,4 @@
+export const GOOGLE_API_KEY = ''
 const proxyUrl = 'https://lit-tor-73201.herokuapp.com/'
 const radius = 50000
 
